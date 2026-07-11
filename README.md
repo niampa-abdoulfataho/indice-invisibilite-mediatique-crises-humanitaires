@@ -118,7 +118,7 @@ Le pipeline est organisé en 4 grandes étapes :
 3.  `Fusion`
 4.  `Scoring / analyses`
 
-Le script d'orchestration principal est [run_all.R](/F:/crisis-media-index/run_all.R:1).
+Le script d'orchestration principal est [run_all.R](run_all.R).
 
 Fonctions principales :
 
@@ -161,7 +161,7 @@ Selon les usages, d'autres variables peuvent être présentes, mais celles-ci so
 
 ### 1. Ouvrir le projet
 
-Ouvrir [crisis-media-index.Rproj](/F:/crisis-media-index/crisis-media-index.Rproj:1) dans RStudio.
+Ouvrir [crisis-media-index.Rproj](crisis-media-index.Rproj) dans RStudio.
 
 ### 2. Restaurer l'environnement
 
@@ -203,7 +203,7 @@ run_analyse()
 
 ## Rapport final
 
-Le rapport principal est [report/index.qmd](/crisis-media-index/report/index.qmd:1).
+Le rapport principal est [report/index.qmd](report/index.qmd).
 
 Il a été recentré sur :
 
@@ -214,7 +214,7 @@ Il a été recentré sur :
 
 ## Dashboard
 
-Le dashboard Shiny est [dashboard/app.R](/F:/crisis-media-index/dashboard/app.R:1).
+Le dashboard Shiny est [dashboard/app.R](dashboard/app.R).
 
 Pour le lancer :
 
@@ -224,17 +224,12 @@ shiny::runApp("dashboard")
 
 ## Fichiers de sortie importants
 
--   [data/processed/media_articles_clean.csv](/F:/crisis-media-index/data/processed/media_articles_clean.csv:1)
--   [data/processed/crises_merged.csv](/F:/crisis-media-index/data/processed/crises_merged.csv:1)
--   [data/final/crises_indices.csv](/F:/crisis-media-index/data/final/crises_indices.csv:1)
--   [data/final/biais_continental.csv](/F:/crisis-media-index/data/final/biais_continental.csv:1)
--   [data/final/volatilite_media.csv](/F:/crisis-media-index/data/final/volatilite_media.csv:1)
--   [data/final/resultats_hypotheses.csv](/F:/crisis-media-index/data/final/resultats_hypotheses.csv:1)
-
-## Limites actuelles
-
--   la couverture médiatique reste peu suffisante
--   certaines requêtes médias restent sensibles au bruit sémantique
+-   `data/processed/media_articles_clean.csv`
+-   `data/processed/crises_merged.csv`
+-   `data/final/crises_indices.csv`
+-   `data/final/biais_continental.csv`
+-   `data/final/volatilite_media.csv`
+-   `data/final/resultats_hypotheses.csv`
 
 ## Auteur
 
